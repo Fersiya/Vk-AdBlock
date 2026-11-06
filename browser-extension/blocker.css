@@ -1,0 +1,172 @@
+/* ===== VK Ad Blocker — CSS Rules ===== */
+
+/* Рекламные посты в ленте (промо-записи) */
+.wall_marked_as_ads,
+.post.marked_as_ads,
+.feed_row.ads_promoted_post,
+._ads_block_data_w,
+.ads_promoted_post,
+.wall_module .ads_ad_box,
+.feed_row[data-ad],
+.Post--ad,
+.post_ad_mark,
+.wall_text_push_mark,
+[data-ad="true"],
+[data-ad-view],
+[data-ad-data],
+.FeedBlock--ads,
+.feed_ads,
+.feed_row .ads_ad_box {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Баннерная реклама в боковой панели */
+#ads_left,
+#ads_right,
+.ads_left,
+.ads_right,
+#side_bar_inner > .ads_block,
+.ads_block,
+.ads_ads_news_wrap,
+.ads_rotate_container,
+.page_block.ads_block,
+#ads_rotating,
+.ads_ad_box,
+.ads_targ_block,
+.aside_ads,
+.ads_cont,
+.ads_promo,
+.left_aside .ads_block_wrap,
+.ui_rmenu_pr,
+.side_block_ads {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Рекламные Stories */
+.stories_feed_promo,
+.stories_ads_wrap,
+.StoriesViewer__ad,
+.stories_ad,
+.stories_promo,
+.StoriesFeedBanner,
+.stories_feed_preview--ad {
+  display: none !important;
+}
+
+/* Промо-баннеры и всплывающие окна */
+.top_profile_mrow.promo,
+.top_nav_promo,
+.TopNavBtn__promo,
+.IndexPromo,
+.index_promo,
+.top_notify_promo,
+.MovieBanner,
+.movies_top_banner,
+.TopBanner,
+.GroupsRecommended__ad,
+.OwnerMenu__promo,
+.LeftMenu__promo,
+.NavigationItem--promo,
+.vkuiPromo,
+.TopPromo,
+.page_promo,
+.top_audio_promo,
+.MiniAppsPromo,
+.BannerInFeed,
+.FeedBanner {
+  display: none !important;
+}
+
+/* Рекомендуемые сообщества (рекламные) */
+.feed_groups_recomm,
+.groups_recomm,
+.feed_friends_recomm_block,
+.group_row_promoted,
+.CommunityRecommendation--ad,
+.RecommendedGroups__ad,
+.friends_recomm_block {
+  display: none !important;
+}
+
+/* Реклама в видео */
+.videoplayer_ad,
+.videoplayer_ad_overlay,
+.vv_ad_block,
+.video_box_ad,
+.VideoLayerInfo__ad,
+.mv_ad,
+.videoplayer__ad-label,
+.VideoAdLabel {
+  display: none !important;
+}
+
+/* VK Mini Apps / Сервисы / промо */
+.miniapps_promo,
+.mini_apps_promo,
+.MiniAppsPromoBlock,
+.CatalogBanner,
+.catalog_banner {
+  display: none !important;
+}
+
+/* Маркет / магазин промо */
+.market_promo_block,
+.market_row_promo,
+.MarketPromo {
+  display: none !important;
+}
+
+/* Клипы — рекламные вставки */
+.clips_ad,
+.ClipsAd,
+.clips_item--ad {
+  display: none !important;
+}
+
+/* Лейблы "Реклама" */
+.PostHeaderSubtitle__item--ad,
+.wall_marked_as_ads_label,
+.PostAdLabel,
+.ads_label {
+  display: none !important;
+}
+
+/* VK Donut промо */
+.DonutPromo,
+.donut_promo_block {
+  display: none !important;
+}
+
+/* Промо VK Pay */
+.VkPayPromo,
+.vk_pay_promo {
+  display: none !important;
+}
+
+/* Промо музыки */
+.AudioSubscriptionPromo,
+.audio_promo_block,
+.MusicSubscriptionPromo {
+  display: none !important;
+}
+
+/* Новый дизайн VK (VKUI-based) */
+.vkuiAdvertising,
+.vkuiBanner--ad,
+.vkuiPromoBlock,
+[class*="AdvertisingBanner"],
+[class*="PromoBlock"],
+[class*="AdBanner"],
+[class*="PromoBanner"] {
+  display: none !important;
+}

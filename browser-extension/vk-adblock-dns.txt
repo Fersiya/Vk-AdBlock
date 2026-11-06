@@ -1,0 +1,66 @@
+# VK Ad Blocker — DNS Blocklist
+# Список доменов для блокировки рекламы ВКонтакте
+# 
+# Использование:
+#   - AdGuard (Android/iOS): Настройки → Фильтрация DNS → DNS-фильтры → Добавить фильтр
+#   - NextDNS: Denylist → добавить домены
+#   - Pi-hole: Local DNS → добавить в blocklist
+#   - Blokada: создать кастомный список
+#
+# Формат: один домен на строку (совместим с AdGuard, hosts, dnsmasq)
+
+# === Рекламная сеть VK / Mail.ru ===
+||ads.vk.com^
+||ad.mail.ru^
+||r.mail.ru^
+||rs.mail.ru^
+||top.mail.ru^
+||top-fwz1.mail.ru^
+||target.my.com^
+||target-sandbox.my.com^
+||ad.imgsmail.ru^
+
+# === Трекинг и аналитика VK ===
+||top.mail.ru^
+||top-fwz1.mail.ru^
+||r.mail.ru^
+||rg.mail.ru^
+||pixel.mail.ru^
+||stat.radar.imgsmail.ru^
+||radar.imgsmail.ru^
+||rating.mail.ru^
+||c.mail.ru^
+||b.radar.imgsmail.ru^
+
+# === VK ретаргетинг ===
+||vk.com/rtrg^
+||top.mail.ru/js/code.js^
+
+# === MyTarget (рекламная платформа VK) ===
+||target.my.com^
+||target-sandbox.my.com^
+||ad.target.my.com^
+||jsn.target.my.com^
+||jscdn.target.my.com^
+
+# === Счётчики и метрики ===
+||counter.yadro.ru^
+||an.yandex.ru^
+||mc.yandex.ru^
+||informer.yandex.ru^
+
+# === Промо и маркетинг Mail.ru Group (VK) ===
+||ssp.rambler.ru^
+||smi2.ru^
+||adfox.yandex.ru^
+||reklama.mirtesen.ru^
+||score.addapptr.com^
+||sync.1dmp.io^
+||dmp.one.mail.ru^
+||dmp.mail.ru^
+
+# === Ad Exchange и RTB ===
+||rtb.mail.ru^
+||bidder.mail.ru^
+||exchange.buzzoola.com^
+||serving.buzzoola.com^
